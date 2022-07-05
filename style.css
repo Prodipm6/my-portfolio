@@ -8,7 +8,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flexibale-part{
     display: flex;
 }
 .header-part{
@@ -34,4 +34,28 @@ section{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+#baby-developer{
+    border-left: 7px solid blue;
+}
+.experience{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+footer{
+    text-align: center;
+    color: gray;
+    padding-top: 100px;
 }
